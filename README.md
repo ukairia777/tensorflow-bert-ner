@@ -9,7 +9,7 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 
 ## Model Performance (Test data)
 Epoch | f1-score
-------|-
+-|-
 1 | 84.55
 2 | 87.25
 3 | 88.20
