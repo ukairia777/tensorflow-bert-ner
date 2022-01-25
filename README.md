@@ -8,7 +8,7 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 - Only labeling the first token of a given word. Assign -100 to the other subtokens from the same word. so the loss function ignores them.
 
 ## Model Performance (Test data)
-Epoch: 3 (without early stopping)
+Epoch: 3 (without callbacks)
 
 Epoch | f1-score
 -|-
