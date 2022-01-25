@@ -8,11 +8,11 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 - If you want to apply it to other dataset, Just Change pre-trained tokenizer, pre-trained language model, dataset.
 
 ## Model Performance (Test data)
-Epoch | f1-score |
-------|------|
-1 | 84.55 |
-2 | 87.25 |
-3 | 88.20 |
+Epoch | f1-score
+------|
+1 | 84.55
+2 | 87.25
+3 | 88.20
 
 ## NER Sample (Test data)
 ```
