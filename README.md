@@ -5,4 +5,4 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 
 ## Note
 - Only labeling the first token of a given word. Assign -100 to the other subtokens from the same word. so the loss function ignores them.
-- If you want to apply it to other dataset, Don't need to change the model architecture. Just Change pre-trained tokenizer, pre-trained language model, dataset.
+- If you want to apply it to other dataset, Just Change pre-trained tokenizer, pre-trained language model, dataset.
