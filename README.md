@@ -9,7 +9,7 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 
 ## Note(Korean)
 - 만약 다른 데이터셋에 대해서 실험하고 싶다면 사전 훈련된 언어 모델과 토크나이저만 변경하면 됩니다.  
-- 하나의 단어가 서브워드로 분할되면, 첫번째 토큰에 대해서만 예측하고 그 뒤의 토큰들에 대해서는 정수가 -100으로 부여되어 손실을 계산하지 않습니다.  
+- 하나의 단어가 서브워드로 분할되면, 첫번째 토큰만 예측에 사용하고 그 뒤의 토큰들에 대해서는 정수가 -100으로 부여되어 손실을 계산하지 않습니다.  
 
 ## Model Performance (Test data)
 Epoch: 3 (without callbacks)
