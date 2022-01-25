@@ -1,7 +1,7 @@
 # tensorflow-bert-ner
 Named Entity Recognition with BERT using TensorFlow 2.0+
 
-Named Entity Recognition (NER) attempts to find a label for each entity in a sentence, such as a person, location, or organization. In this example, learn how to fine-tune a model on the 한국해양대학교 자연언어처리 연구실 데이터셋 (https://github.com/kmounlp/NER) to detect new entities.
+Named Entity Recognition (NER) attempts to find a label for each entity in a sentence, such as a person, location, or organization. In this example, learn how to fine-tune a model on the 한국해양대학교 자연언어처리 연구실 dataset (https://github.com/kmounlp/NER) to detect new entities.
 
 ## Note
 - If you want to apply it to other dataset, Just Change pre-trained tokenizer, pre-trained language model, dataset.
