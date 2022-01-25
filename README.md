@@ -7,6 +7,13 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 - Only labeling the first token of a given word. Assign -100 to the other subtokens from the same word. so the loss function ignores them.
 - If you want to apply it to other dataset, Just Change pre-trained tokenizer, pre-trained language model, dataset.
 
+## Model Performance (Test data)
+Epoch | f1-score |
+------|------|
+1 | 84.55 |
+2 | 87.25 |
+3 | 88.20 |
+
 ## NER Sample (Test data)
 ```
 input : '오리온스는 리그 최정상급 포인트가드 김동훈을 앞세우는 빠른 공수전환이 돋보이는 팀이다'
