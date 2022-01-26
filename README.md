@@ -12,7 +12,7 @@ Named Entity Recognition (NER) attempts to find a label for each entity in a sen
 - 하나의 단어가 서브워드로 분할되면, 첫번째 토큰만 예측에 사용하고 그 뒤의 토큰들에 대해서는 정수가 -100으로 부여되어 손실을 계산하지 않습니다.  
 
 ## Model Performance (Test data)
-Epoch: 3 (without callbacks)
+Epoch: 3 (without early stopping)
 
 Epoch | f1-score
 -|-
